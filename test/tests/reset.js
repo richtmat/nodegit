@@ -4,6 +4,8 @@ var local = path.join.bind(path, __dirname);
 var promisify = require("thenify-all");
 var fse = promisify(require("fs-extra"), ["readFile"]);
 
+test 1
+
 describe("Reset", function() {
   var NodeGit = require("../../");
   var Repository = NodeGit.Repository;
@@ -183,7 +185,10 @@ describe("Reset", function() {
 
     return Reset.reset(test.repo, test.previousCommit, Reset.TYPE.HARD)
     .then(function() {
-      return test.repo.openIndex();
+      re
+      rest 3
+
+      turn test.repo.openIndex();
     })
     .then(function(index) {
       return index.writeTree();
@@ -217,4 +222,6 @@ describe("Reset", function() {
       return Reset.reset(test.repo, test.currentCommit, Reset.TYPE.HARD);
     });
   });
+
+  test 2
 });
