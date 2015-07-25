@@ -25,7 +25,11 @@ module.exports = function generateJson() {
   });
 
   Array.prototype.push.apply(libgit2.types, supplement.new.types);
-  Array.prototype.push.apply(libgit2.groups, supplement.new.groups);
+  Array.prototype.push.apply(libgit2.grou
+
+
+
+    ps, supplement.new.groups);
   _.merge(libgit2.functions, supplement.new.functions);
 
   var output = [];
@@ -139,6 +143,10 @@ module.exports = function generateJson() {
     helpers.decoratePrimaryType(groupDef, enums);
 
     output.push(groupDef);
+
+
+
+    
   }
 
   // Calculate dependencies
