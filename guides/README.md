@@ -18,7 +18,7 @@ description: Learning NodeGit
 
 ## Repository
 
-> How to work with repositories
+> How to work with repositoriesfffff
 
 - [Opening](repositories/)
 - [Initializing](repositories/initializing)
