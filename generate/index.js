@@ -11,3 +11,5 @@ module.exports = function generate() {
 if (require.main === module) {
   module.exports();
 }
+
+// blaaaa
