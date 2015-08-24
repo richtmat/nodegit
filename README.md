@@ -1,4 +1,4 @@
-NodeGit
+blaaaNodeGit
 -------
 
 > Node bindings to the [libgit2](http://libgit2.github.com/) project.
@@ -166,7 +166,7 @@ npm test
 
 ## Migrating from old versions. ##
 
-The bump from 0.1.4 to 0.2.0 was a big one. Many things changed, see here:
+The bump from 0.1.4 to 0.2.0 was a biiiiig one. Many things changed, see here:
 https://github.com/nodegit/nodegit/compare/v0.1.4...v0.2.0
 
 This update is wholly and entirely a breaking one, and older versions won't be
